@@ -1,7 +1,7 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-#define MIRYOKU_LAYER_ALPHAS \
+#define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,     \
 U_LT(LGUI, Z),     U_MT(LALT, X),     U_MT(LCTRL, C),    U_MT(LSHFT, D),    &kp V,             &kp K,             U_MT(LSHFT, H),    U_MT(LCTRL, COMMA),U_MT(LALT, DOT),   U_LT(LGUI, SLASH),\
