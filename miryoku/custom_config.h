@@ -7,6 +7,12 @@
 U_MT(LGUI, Z),     U_MT(LALT, X),     U_MT(LCTRL, C),    U_MT(LSHFT, D),    &kp V,             &kp K,             U_MT(LSHFT, H),    U_MT(LCTRL, COMMA),U_MT(LALT, DOT),   U_MT(LGUI, SLASH),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
+#define MIRYOKU_LAYER_EXTRA \
+&kp B,             &kp L,             &kp D,             &kp W,             &kp Z,             &kp COMMA,         &kp F,             &kp O,             &kp U,             &kp J,          \
+&kp N ,            &kp R,             &kp T,             &kp S,             &kp G,             &kp Y,             &kp H,             &kp A,             &kp E,             &kp I,          \
+U_MT(LGUI, Q),     U_MT(LALT, X),     U_MT(LCTRL, M),    U_MT(LSHFT, C),    &kp V,             &kp K,             U_MT(LSHFT, P),    U_MT(LCTRL, DOT),U_MT(LALT, SQT),   U_MT(LGUI, SLASH),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+
 #define MIRYOKU_CLIPBOARD_WIN
 
 #define MIRYOKU_LAYER_TAP \
