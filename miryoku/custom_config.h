@@ -8,10 +8,10 @@ U_MT(LGUI, Z),     U_MT(LALT, X),     U_MT(LCTRL, C),    U_MT(LSHFT, D),    &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
-&kp B,             &kp L,             &kp D,             &kp W,             &kp Z,             &kp COMMA,         &kp F,             &kp O,             &kp U,             &kp J,          \
-&kp N ,            &kp R,             &kp T,             &kp S,             &kp G,             &kp Y,             &kp H,             &kp A,             &kp E,             &kp I,          \
-U_MT(LGUI, Q),     U_MT(LALT, X),     U_MT(LCTRL, M),    U_MT(LSHFT, C),    &kp V,             &kp K,             U_MT(LSHFT, P),    U_MT(LCTRL, DOT),U_MT(LALT, SQT),   U_MT(LGUI, SLASH),\
-U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
+&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp X,           &kp F,             &kp O,             &kp U,             &kp J,            \
+&kp S,             &kp T,             &kp R,             &kp D,             &kp Y,             &kp DOT,         &kp N,             &kp A,             &kp E,             &kp I,            \
+U_MT(LGUI, Z),     U_MT(LALT, K),     U_MT(LCTRL, Q),    U_MT(LSHFT, G),    &kp W,             &kp B,           U_MT(LSHFT, H),    U_MT(LCTRL, SQT),U_MT(LALT, SLASH),   U_MT(LGUI, COMMA),\
+U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_CLIPBOARD_WIN
 
