@@ -8,9 +8,9 @@ U_MT(LGUI, Z),     U_MT(LALT, X),     U_MT(LCTRL, C),    U_MT(LSHFT, D),    &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
-&kp V,             &kp M,             &kp L,             &kp C,             &kp P,             &kp X,           &kp F,             &kp O,             &kp U,             &kp J,            \
-&kp S,             &kp T,             &kp R,             &kp D,             &kp Y,             &kp DOT,         &kp N,             &kp A,             &kp E,             &kp I,            \
-U_MT(LGUI, Z),     U_MT(LALT, K),     U_MT(LCTRL, Q),    U_MT(LSHFT, G),    &kp W,             &kp B,           U_MT(LSHFT, H),    U_MT(LCTRL, SQT),U_MT(LALT, SLASH),   U_MT(LGUI, COMMA),\
+&kp B,             &kp Y,             &kp O,             &kp U,             &kp Q,             &kp Z,           &kp L,             &kp D,             &kp W,             &kp V,            \
+&kp C,             &kp I,             &kp E,             &kp A,             &kp COMMA,         &kp DOT,         &kp H,             &kp T,             &kp S,             &kp N,            \
+U_MT(LGUI, G),     U_MT(LALT, X),     U_MT(LCTRL, J),    U_MT(LSHFT, K),    &kp SQT,           &kp SLASH,       U_MT(LSHFT, R),    U_MT(LCTRL, M),    U_MT(LALT, F),     U_MT(LGUI, P),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_CLIPBOARD_WIN
@@ -56,3 +56,5 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+
+// Engram 
