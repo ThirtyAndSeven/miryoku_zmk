@@ -59,30 +59,3 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-// Engram combos
-
-/ {
-    behaviors  
-    {
-        combos {
-        compatible = "zmk,combos";
-
-        combo_q {
-            bindings = <&kp Z>;
-            key-positions = <8 9>;
-            layers = <0>;
-        };
-
-        combo_z {
-            bindings = <&kp Q>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
-
-        combo_capsword {
-            bindings = <&caps_word>;
-            key-positions = <15 14>;
-            layers = <0>;
-        };
-    }
-};
