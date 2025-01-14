@@ -1,6 +1,8 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
+#include <miryoku_behaviors.dtsi>
+
 #define MIRYOKU_LAYER_BASE \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             &kp N,             &kp E,             &kp I,             &kp O,     \
@@ -8,9 +10,9 @@ U_MT(LGUI, Z),     U_MT(LALT, X),     U_MT(LCTRL, C),    U_MT(LSHFT, D),    &kp 
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),  U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_LAYER_EXTRA \
-&kp B,             &kp Y,             &kp O,             &kp U,             &kp Q,             &kp Z,           &kp L,             &kp D,             &kp W,             &kp V,            \
-&kp C,             &kp I,             &kp E,             &kp A,             &kp COMMA,         &kp DOT,         &kp H,             &kp T,             &kp S,             &kp N,            \
-U_MT(LGUI, G),     U_MT(LALT, X),     U_MT(LCTRL, J),    U_MT(LSHFT, K),    &kp SQT,           &kp SLASH,       U_MT(LSHFT, R),    U_MT(LCTRL, M),    U_MT(LALT, F),     U_MT(LGUI, P),\
+&kp B,             &kp F,             &kp D,             &kp L,             &kp Z,             &kp J,           &kp G,             &kp O,             &kp U,             &kp COMMA,            \
+&kp N,             &kp S,             &kp T,             &kp R,             &kp K,             &kp Y,           &kp C,             &kp A,             &kp E,             &kp I,            \
+U_MT(LGUI, Q),     U_MT(LALT, V),     U_MT(LCTRL, M),    U_MT(LSHFT, H),    &kp X,             &kp P,           U_MT(LSHFT, W),    U_MT(LCTRL, SQT),  U_MT(LALT, SLASH), U_MT(LGUI, DOT),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
 #define MIRYOKU_CLIPBOARD_WIN
@@ -57,4 +59,30 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
-// Engram 
+// Engram combos
+
+/ {
+    behaviors  
+    {
+        combos {
+        compatible = "zmk,combos";
+
+        combo_q {
+            bindings = <&kp Z>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        combo_z {
+            bindings = <&kp Q>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        combo_capsword {
+            bindings = <&caps_word>;
+            key-positions = <15 14>;
+            layers = <0>;
+        };
+    }
+};
