@@ -14,8 +14,6 @@ U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT
 U_MT(LGUI, Q),     U_MT(LALT, V),     U_MT(LCTRL, M),    U_MT(LSHFT, H),    &kp X,             &kp P,           U_MT(LSHFT, W),    U_MT(LCTRL, SQT),  U_MT(LALT, SLASH), U_MT(LGUI, DOT),\
 U_NP,              U_NP,              U_LT(U_MEDIA, ESC),U_LT(U_NAV, SPACE),U_LT(U_MOUSE, TAB),U_LT(U_SYM, RET),U_LT(U_NUM, BSPC), U_LT(U_FUN, DEL),  U_NP,              U_NP
 
-#define MIRYOKU_CLIPBOARD_WIN
-
 #define MIRYOKU_LAYER_TAP \
 &kp Q,             &kp W,             &kp F,             &kp P,             &kp B,             &kp J,             &kp L,             &kp U,             &kp Y,             &kp SQT,           \
 &kp A,             &kp R,             &kp S,             &kp T,             &kp G,             &kp M,             U_MT(LSHFT, N),    U_MT(LCTRL, E),    U_MT(LALT, I),     U_MT(LGUI, O),     \
@@ -57,4 +55,3 @@ U_NP,              U_NP,              &kp LPAR,          &kp RPAR,          &kp 
 &kp F11,           &kp F4,            &kp F5,            &kp F6,            &kp SLCK,          U_NA,              &u_to_U_FUN,       &u_to_U_MEDIA,     &kp RALT,          U_NA,              \
 &kp F10,           &kp F1,            &kp F2,            &kp F3,            &kp PAUSE_BREAK,   U_NA,              &kp LSHFT,         &kp LCTRL,         &kp LALT,          &kp LGUI,          \
 U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
-
